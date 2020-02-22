@@ -1,12 +1,17 @@
 $(document).ready(function(){
-$(".brand img").click(function(){
+$(".brand").click(function(){
+$(".brand img").toggle();
 $("#jumbo p").toggle();
 });
-$(".dev img").click(function(){
-$("#tron p").toggle();
-});
-$(".product img").click(function(){
+$(".dev").click(function(){
+ $(".dev img").toggle();
+ $("#tron p").toggle();
+ });
+ $(".product").click(function(){
+$(".product img").toggle();
 $("#fluid p").toggle();
-});
+ });
 
-});
+ });
+
+ 

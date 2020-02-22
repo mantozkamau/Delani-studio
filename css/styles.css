@@ -115,3 +115,11 @@ footer{
     text-align: center;
     padding: 13%;
 }
+.move{
+    position:relative;
+    padding:0;
+    width:300px;
+    display:block;
+    cursor:pointer;
+    overflow:hidden;
+    }
