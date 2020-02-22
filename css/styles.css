@@ -30,3 +30,31 @@ h1{
 .service h1{
 color: white;
 }
+.brand h1{
+font-size: medium;
+}
+.brand p{
+   display: none; 
+}
+.dev p{
+  display: none;  
+}
+.product p{
+    display: none;
+}
+.row{
+    margin-left: 1%;
+    padding: 20px;
+    margin-right: 2%;
+}
+.row img{
+   padding: 2%; 
+}
+.con{
+    background-image: url("/image/backgrounds/c_image.jpg");
+    height: 40vh;
+}
+.con h1{
+    padding-top: 40px;
+    color:white;
+}
