@@ -11,16 +11,43 @@ $(document).ready(function () {
         $(".product img").toggle();
         $("#fluid p").toggle();
     });
-    $(".row").hover(function () {
+    $("#one").hover(function () {
         $("#first").toggle();
     });
-    // var userName = " ";
-    // function myFunction(submit) {
-       
-    //     return userName;
-    
-    // }
-    // alert("Hae" + userName + " we have received your message" + "." + "Thank you for reaching out to us")
-    // myFunction();
-    
+    $("#two").hover(function(){
+        $("#test").toggle();
+    });
+    $("#three").hover(function(){
+        $("#set").toggle();
+    });
+    $("#four").hover(function(){
+        $("#st").toggle();
+    });
+    $("#five").hover(function(){
+        $("#work").toggle();
+    });
+
+    $("#six").hover(function(){
+        $("#stdi").toggle();
+    });
+
+    $("#seven").hover(function(){
+        $("#std").toggle();
+    });
+
+    $("#eight").hover(function(){
+        $("#studio").toggle();
+    });
+  
 });
+
+
+var userName = " ";
+function myFunction(submit) {
+   
+    return userName;
+
+}
+alert("Hae" + userName + " we have received your message" + "." + "Thank you for reaching out to us")
+myFunction();
+
