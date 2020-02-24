@@ -23,9 +23,10 @@ h1{
 .service{
     background-image: url("/image/backgrounds/s_image.jpg");
     text-align: center;
-    font-size: large;
-    color: white;
+    font-size: larger;
+    color:whitesmoke;
     height: 30vh;
+    font-family: 'Courgette';
 }
 .service h1{
 color: white;
@@ -116,28 +117,57 @@ footer{
     padding: 13%;
 }
 .move{
-    position:relative;
+    /* position:relative; */
     padding:0;
     width:300px;
     display:block;
     cursor:pointer;
     overflow:hidden;
     }
-#one{
+/* #one{
     opacity: 0.5;
-}
+} */
 .next{
     position: absolute;
     top: 50%;
     left: 50%;
     color:white;
+    transform: translate(-50% ,-50%);
     border: 5px solid gray;
     display: none;
     border-radius: 15px;
+
 }
-.row{
+#one:hover {
+    position: relative;
     opacity: 0.8;
 }
-.first{
+#two:hover {
     position: relative;
+    opacity: 0.8;
+}
+#three:hover {
+    position: relative;
+    opacity: 0.8;
+}
+#four:hover {
+    position: relative;
+    opacity: 0.8;
+}
+#five:hover {
+    position: relative;
+    opacity: 0.8;
+}
+#six:hover {
+    position: relative;
+    opacity: 0.8;
+}
+#seven:hover {
+    position: relative;
+    opacity: 0.8;
+}
+#eight:hover {
+    position: relative;
+    opacity: 0.8;
+    color: turquoise;
 }

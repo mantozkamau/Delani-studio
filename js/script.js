@@ -12,42 +12,43 @@ $(document).ready(function () {
         $("#fluid p").toggle();
     });
     $("#one").hover(function () {
-        $("#first").toggle();
+        $("#first").slideToggle();
     });
     $("#two").hover(function(){
-        $("#test").toggle();
+        $("#test").SlideToggle();
     });
     $("#three").hover(function(){
-        $("#set").toggle();
+        $("#set").slideToggle();
     });
     $("#four").hover(function(){
-        $("#st").toggle();
+        $("#st").slideToggle();
     });
     $("#five").hover(function(){
-        $("#work").toggle();
+        $("#work").slideToggle();
     });
 
     $("#six").hover(function(){
-        $("#stdi").toggle();
+        $("#stdi").slideToggle();
     });
 
     $("#seven").hover(function(){
-        $("#std").toggle();
+        $("#std").slideToggle();
     });
 
     $("#eight").hover(function(){
-        $("#studio").toggle();
+        $("#studio").slideToggle();
     });
   
 });
 
 
-var userName = " ";
-function myFunction(submit) {
-   
-    return userName;
+function myFunction(name) {
+    var name = document.getElementById("name").value
+    var email = document.getElementById("email").value
+
+    alert("Hae" + " " + name + " we have received your message. Thank you for reaching out to us")
+
 
 }
-alert("Hae" + userName + " we have received your message" + "." + "Thank you for reaching out to us")
-myFunction();
+
 

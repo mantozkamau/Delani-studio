@@ -4,7 +4,7 @@ A website that generates akan names, 22/02/2019
 By Muthoni George
 
 Description
-This is a project on Delani studio.The webpage is to make it easy for a client to navigate through the webpage easly and choose the services he/she wants.It also enables them to write a feedback by simply filling in their names and emails[]
+This is a project on Delani studio.The webpage is to make it easy for a client to navigate through the webpage easly and choose the services he/she wants.It also enables them to write a feedback by simply filling in their names and emails[https://mantozkamau.github.io/week3-project/]
 
 Setup/Installation Requirements
 Clone this repository
